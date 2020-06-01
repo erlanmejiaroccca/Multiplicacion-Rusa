@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+.contenido{
+    background: #439179;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url(img/Matematicas.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "open sans";
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+.caja{
+    background-color: rgb(59, 138, 131);
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px white;
+    color:#0f0c29;
+}
+.caja input{
+    font-size: 1em;
+    background-color: rgba(255,255,255,0);
+    border: none;
+    border-bottom: 2px solid rgba(0,0,0,0.8);
+    margin-left: 40px;
+    font-family: sans-serif;
+}
+.caja h1{
+    margin-bottom: 40px;
+}
+.caja #Boton{
+    border: none;
+    background-color: #0f0c29;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 300px;
+}
